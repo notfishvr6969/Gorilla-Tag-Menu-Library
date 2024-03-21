@@ -60,7 +60,7 @@ namespace Gorilla_Tag_Mod_Menu_Library
             if (init)
             {
                 // menu innit                   // Title              // Size            // Colour                     // Where you want the menu to be
-                menu = MenuTemplate.CreateMenu("Hello World", new Vector3(0.1f, 1f, 1f), Color.black, GorillaLocomotion.Player.Instance.leftHandTransform.gameObject);
+                menu = MenuTemplate.CreateMenu("Hello World", new Vector3(0.1f, 1f, 1f), Color.black, GorillaLocomotion.Player.Instance.leftControllerTransform.gameObject);
 
                 // Creating pages
                 PageTemplate page1 = PageTemplate.CreatePage();
