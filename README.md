@@ -38,7 +38,7 @@ MenuTemplate menu = MenuTemplate.CreateMenu(
     "Hello World",     // Title
     new Vector3(0.1f, 1f, 1f),     // Size
     Color.black,            // Color
-    GorillaLocomotion.Player.Instance.leftHandTransform.gameObject  // Pivot Point
+    GorillaLocomotion.Player.Instance.leftControllerTransform.gameObject  // Pivot Point
 );
 ```
 
