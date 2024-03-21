@@ -1,5 +1,4 @@
-
-![Logo](https://cdn.discordapp.com/attachments/1084603189053116538/1085228360763965531/New_Project.png)
+i just fix it for new updates
 
 
 # Menu Maker 3000
@@ -30,14 +29,11 @@ This is a simple but powerful mod menu creation tool for the VR game Gorilla Tag
 - Object Oriented!
 - Built In Documentation!
 - Open Source
-## Screenshots
-
-![App Screenshot](https://cdn.discordapp.com/attachments/1084603189053116538/1085221161316663436/image.png)
 
 
 ## Usage/Examples
 
-```javascript
+```c#
 MenuTemplate menu = MenuTemplate.CreateMenu(
     "Hello World",     // Title
     new Vector3(0.1f, 1f, 1f),     // Size
